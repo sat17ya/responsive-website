@@ -1,9 +1,18 @@
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from './Navbar';
+
 
 function App() {
   return (
     <>
-    hi
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+      <Route path='/' />
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }
