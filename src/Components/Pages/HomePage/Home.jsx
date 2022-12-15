@@ -1,5 +1,6 @@
 import React from 'react'
 import DataSection from '../../DataSection'
+import Pricing from '../../Pricing'
 import {homeObjOne,homeObjTwo,homeObjThree,homeObjFour} from './HomeData'
 
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
     <>
       <DataSection {...homeObjOne}/>  
       <DataSection {...homeObjThree}/>  
-      <DataSection {...homeObjTwo}/>  
+      <DataSection {...homeObjTwo}/> 
+      <Pricing/> 
       <DataSection {...homeObjFour}/>  
     </>
   )
