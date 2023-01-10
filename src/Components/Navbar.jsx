@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { HiShoppingBag } from "react-icons/hi";
+import { BsCreditCard } from "react-icons/bs";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "./Button";
 import "./Navbar.css";
@@ -35,8 +35,8 @@ export default function Navbar() {
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <HiShoppingBag className="navbar-icon" />
-            Shoppy-Fy
+            <BsCreditCard className="navbar-icon" />
+            CARD-KING
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}

@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
-import { HiShoppingBag } from "react-icons/hi";
+import { BsCreditCard } from "react-icons/bs";
 
 export default function Footer() {
   return (
@@ -73,11 +73,11 @@ export default function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              <HiShoppingBag className="navbar-icon" />
-              SHOPPY-FY
+              <BsCreditCard className="navbar-icon" />
+              CARD-KING
             </Link>
           </div>
-          <small className="website-rights">SHOPPY-FY © 2022</small>
+          <small className="website-rights">CARD-KING © 2022</small>
           <div className="social-icons">
             <Link
               className="social-icon-link"
